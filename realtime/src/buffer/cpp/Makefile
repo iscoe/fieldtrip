@@ -11,7 +11,7 @@ MACHINE = $(shell uname -m)
 
 # defaults, might be overwritten further down
 LDFLAGS += -L../src
-LDFLAGS += -lpthread -lbuffer
+LDFLAGS += -lbuffer
 INCPATH = -I../src -I. 
 SUFFIX =
 

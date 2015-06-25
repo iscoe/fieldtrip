@@ -6,7 +6,7 @@ Building on Windows
 1. Install the USB driver from http://www.biosemi.com/download.htm
 2. Install MinGW 32 bit from http://www.mingw.org/
 3. Add the MinGW bin directory to your system path
-4. Open a command prompt and navigate to realtime\buffer\src
+4. Open a command prompt and navigate to realtime\src\buffer\src
 5. Run: mingw32-make.exe
 6. Navigate to realtime\buffer\cpp and run mingw32-make.exe
 7. Navigate to realtime\acquisition\biosemi and run mingw32-make.exe
